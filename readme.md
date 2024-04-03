@@ -1,9 +1,9 @@
 # Repository for placing articles to add relevant content to the thesis
 ## Roadmap
 Need:
-1. Article about Blockchain Standards
-2. Centralization Vs Decentralization
-3. Containerization
+1. Article about Blockchain Standards x
+2. Centralization Vs Decentralization x
+3. Containerization 
 4. Node Cluster
 5. Scaling
 6. Load Balancing

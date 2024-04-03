@@ -1,0 +1,113 @@
+- The author did surveys to identify the challenges of the containerization like performance,orchestration and security
+  - Most of the responses where about cloud computing which is where we have more adoption of these technologies
+  - The author says we must have more work towards using containerization in clusters
+- Overview
+  - `Virtualization`
+    - Isolation layer built on top of the operating system level
+    - There are 2 types of virtualization: para-virtualization and full-virtualization
+      - Para-virtualization
+        - Communication between the guest operating system and the hypervisor
+      - Full-virtualization
+        - Deploy virtual machines with full isolation from the operating system level
+    - This was important for cloud computing,systems and data centers
+    - Contariners are the alternative virtualization
+      - It is more light
+      - It abstracts the current OS level
+      - It has lower start-up time compared to VMS
+      - It enhances resource utilization because it uses fewer
+      - They can reach near native performance when tested against bar metal execution (bar-metal means there is a operating system and apps run directly over the hardware, it does not have virtualization involved)
+      - They remove some of the disadvantages of non-containerized virtualization like hypervisor dependency just-in-time compilation,performance degradation and slow booting times
+      - They are more beneficial than virtual machines
+      - Performance ehnances by about 50%
+      - Provides isolation with namespaces and cgroups
+      - They can secure the run-time environment for apps and network resources management
+  - Container technologies
+    - Docker
+      - Lightweight container based virtualization
+      - Sharing the same operating system among containers
+      - Provides methods for security level, by using namespaces and Cgroups mechanisms
+      - Namespaces: user,net,PID,mnt,Cgroup,time,etc...
+    - Singularity
+      - Create and deploy execution environments for computational science
+      - Similar to docker
+      - Containers as files
+    - uDocker
+      - The same as docker but it does not require root privileges to run
+      - Suitable for cloud computing
+      - More secure because it does not run as root
+  - Architecture changed from software components oriented architecture to service-oriented architecture
+  - Now we are in a non-monolitic app trend
+  - Container lifecycle
+    - Paused,killed and stopped
+- Container orchestration
+  - Useful for managing containers
+  - Provides performance,isolation,scalability,portability,dependency,fault-tolerance and load balancing
+  - `Docker Swarm`
+    - Native docker orchestrator
+    - We can run multiple containers across a cluster
+    - Supports rolling updates,auto recovery services and security mechanisms
+  - `Mesos`
+    - Linux kernel principles
+    - Container orchestrator
+    - Does not support service discovery
+    - Supports load balancing
+    - Ideal to run spark,kafka,hadoop,elastic search
+  - `Kubernetes`
+    - Same as Mesos but supports service descovery but the architecture is different
+    - It uses Master nodes,workers and pods for its logic
+    - Uses basic monitoring,logging and health checking
+    - We can use a service mesh like istio to make it even more traceable
+  - `Nextflow`
+    - Workflow management system designed for data-driven computation pipelines
+- Classification for the orchestrartion system
+  - Application layer
+    - Container configs related to networking,availability,load balancing and service discovery
+  - Container orchestration layer
+    - Orchestration functionalities
+  - Computing infrastructure
+    - Physical level, composed of machines to manage computing processing
+- `Applications of containerization`
+  - Scientific Computing
+    - Life sciences
+    - Artificial inteligence
+    - Machine learning
+    - It is used to a huge amount of intensive tasks as well as intensive data apps
+    - This is because it requires lots of parallel scientific computing
+  - Big data processing
+    - Handling data intensive apps that require frameworks and sophisticated programming models to handle mass of data in a reasonable amount of time
+    - Big data analytics
+    - Distributed processing
+    - Monitoring services
+    - security
+    - IoT
+    - It requires MPI libraries, GPUs and field-programmable gate array (FPGA)
+    - Provides scheduling of containerized jobs to speed up the analytics tasks
+  - High performance computing
+  - Grid Computing
+    - Multi-institutional research communities
+    - Virtual organizations
+    - Computing for research
+  - High throughput computing HTC
+    - High throughput computing is another category that requires lots of computing power
+  - Cloud computing
+  - IoT
+  - Fog and edge computing
+    - Fog computing stands for heterogeneous nodes like devices, gateways and computers
+    - Those are devices that are on the edge of the network
+  - Devops
+- Performance metrics of containerization
+  - Computing performance
+    - CPU,Memory throughput and DISK I/O resources
+    - Number of operations,completion time 
+    - CPU performance is better in containers vs virtual machines and almost the same as native performance
+    - Performance is better in containers than the virtual machines
+    - Lowest power consumption and the lower throughput
+    - Better performance for big data processing containers
+    - Low overhead of cpu and memory containers
+    - better scalability also containers
+  - Isolation performance
+    - Better performance in the deployment of micro-services in separate containers
+    - Kubernetes was supperior to other orchestrator platforms
+  - Network performance
+    - Docker container is the most appropriate solution in terms of response time,CPU utilization and memory usage
+    - Low overhead and rapid deployment at a large scale
