@@ -1,0 +1,112 @@
+# Notes
+- Blockchain is so emerging that we needed to create solutions without having the standards
+- Protecting information is more relevant than ever
+- This article is about the standarization in the blockchain overview and organizations publications about blockchains/distributed ledger technologies
+- Lack of standarization in the DLT(Distributed ledger technology) is one of the main reasons for the tech not getting evolution in terms of everyday usage
+- Rating agency Moody's experts believe that standarization will accelarate the process of technology implementation,reduce transaction costs,level out regulatory risks,improve intereoperability of systems and improve quality interaction between market participants and increase attractiveness of securing assets on a blockchain
+- Standarization is a important step for interoperability,scaling,auditing and possible further regulation of the tech
+- Blockchain technologies standarization is of very interest to China
+- Organizatons such as IEEE are well known for providing technical standarization
+- Iso 27k series are the best for information security
+- A Standardized framework will allow objective information security auditing of blockchain system on a larger scale
+- In this document non oficial standards are not considered a standard (ex: Ethereum tokens standards is not a standard since it is business driven and not a universal standard)
+- In this article no standards without beeing in their final form were considered
+- GDPR compliance
+- In 2018, NIST published the document NISTIR 8202 - Blockchain Technology Overview
+  - Speaks about fundamental functionalities and components of a blockchain
+  - Contains common misconceptions and tech limitations
+  - Contains concertns about cybersecurity and the general applicabilitiy
+  - It explains its structure and models
+  - It explains consensus mechanisms and examples of it
+  - It contains a number of blockchain specific problems and considerations
+- In 2018 ASC X9 released a final version of Distributed Ledger and Blockchain Technology Study Group Report
+  - It discusses what standarization would be required for financial sectors but also other insdustries
+  - It focuses on permissioned blockchains
+  - It has 3 levels of urgency to have standards over that matter (high,medium or low)
+  - It focuses on explaning security needs and issues of blockchain, specially for finance
+  - They recommend that there is a 3 stage approach of checking non-blockchain standards that cover the same topic, using incremental improvements for blockchain specific implementations and as a third, checking out which areas required urgent standarization
+  - There is a high-level reference architecture included in the appendix to explain how DLT system works
+  - Its just a report to declare which areas require more standarization, it does not provide direct value in terms of standarization
+- ISO/TR 23455:2019 Blockchain and distributed ledger technologies - Orverview of and interactions between smart contracts in blockchain and distributed ledger technologies
+  - Detailted overview and lengthy discussion of smart contract within a blockchain/distributed ledger system and their operation
+  - It explores the possibility of legally binding smart contracts as well as using them for sidechains or cross-chaining
+  - It is a substantial guidance for a proper and scure operation of smart contracts and could be useful for a general increase in quality of smart contracts 
+  - It is very good for smart contracts, not only the technical functionality but also a generous amount of use cases
+- German Institute of Standarization (DIN)
+  - DIN SPEC 16597
+    - It aims for beeing relevant for a broader audiance
+    - It covers terminology from traditional IT from cryptography before delving into blockchain
+  - DIN SPEC 3103
+    - Blockchain and distributed Ledger Technologies in Application Scenarios for Industry 4.0 
+    - Apresents application scenarios for the technology in the field of modern industry
+    - Introduces information to evaluate a possible benefit of introducing distributed ledger technology
+    - It presents use cases and problems that can occur
+    - It introduces solutions, including user stories and sequence diagrams to explain better
+  - DIN SPEC 3104
+    - Specification about validation of data
+    - Focus on data correctness of blockchains
+    - It provides a technical framework and process descriptions for a blockchain validation software and the verification of this validation
+    - This framework comes in the form of a step by step overview 
+  - DIN SPEC 4996: SPEC 4996, blockchain-based approach to the transfer of software licenses
+    - Focuses on a standarized process for digital trade,transfer and management of software licenses using DLT by giving out the requirements
+    - Informs the reader on how the transparency and tamper-proof attributes of a blockchain can be used to prevent loss or multiple usage of one license
+    - It explains the roles in licensing operations
+    - It gives a overview of how a proposed system could look like
+  - DIN SPEC 4997: The specification Privacy by Blockchain Design: Standarized model for processing personal data using blockchain
+    - It concerns iself with the EU General Data Protection Regulation (GDPR) specially art.25, Privacy by design
+    - The aim is to support data protection and privacy compliance in blockchain/DLT systems
+    - It explains where personal data can be found and where it will be processed
+    - There is a overview of risks and mitigations for data protection 
+    - There is a blueprint for a privacy by design blockchain architecture
+    - There is also awareness of the GDPR and the data subject rights
+- The European Union Agency for Cybersecurity (ENISA)
+  - Publication Distributed Ledger Technology & Cybersecurity - Improving Information security in the financial sector
+  - They state the benefits of adopting DLT for financial institutions
+  - They break down the components and explain the individual parts, their different forms and what their function within a blockchain is
+  - The components include consensus protocols,sidechains,smartcontracts and cryptography
+  - They have one section of the report for cybersecurity challenges, both traditional and technology specific
+  - There is also a section for good practises to specific challenges to provide quick overview and to help organizations to implement blockchains/distributed ledger systems in a secure way
+  - They state generic challenges so it is is applicable in more than just financial apps
+  - Enisa summarizes the challenges and issues that are yet to answer
+- German Federal Office for Information Security (BSI)
+  - Towards Secure Blockchains in 2019
+  - Document is sectioned into four different parts and provides substantial overview on blockchains and according considerations
+  - There is a part for fundamental principals of blockchain technology,listing definitions and explaining blockchain specific matters like trust,consensus and smart contracts
+  - The second part is about security features and properties of blockchain including possible attacks and long-term solutions
+  - Third part is about legal aspects on privacy and data protection
+  - The last part portrays the current use and situation of blockchain and a future trend analysis
+- BSI in cooperation with French Agency ANSSI
+  - Franco-German IT-Security Situation Overview
+  - Report of the overview of the most prominent attack types and surfaces with a strong focus on cryptocurrencies
+  - It can be used as informative input to find ways for a standardized preventive method for the threats
+- International Telecommunication Union(ITU)
+  - The ITU-T Focus Group on Application of Distributed Ledger Technology, has published a number of technical specifications and reports concerning the terminology,architecture and perspectives of blockchains and distributed ledger technology,as well as a proposed framework
+  - FG DLT D1.1
+    - Terminology and definitions for distributed ledger technology
+    - It includes example figures
+  - FG DLT D1.2
+    - Distributed Ledger Overview, concepts, ecosystem
+    - Provides an overview of the technology and its components
+  - FG DLT D2.1
+    - Discussion about possible benefits and competitive advantages for the industry
+    - Room for adoption of DLT
+    - Adoption barriers
+    - Collection of use cases
+  - FG DLT D3.1
+    - Full reference architecture for distributed ledger systems
+    - Each element or component is described in according depth and detail
+  - FG DLT D3.3
+    - Catalogue of criteria, by which a distributed ledger system can be assessed
+    - It has a description on how to use the defined criteria and should serve as guiding document
+  - FG DLT D4.1
+    - Outlines existing regulatory issues that can slow down the adoption rate of distribued ledger technologies
+    - Selection of specific DLT attributes is analyzed and couples with according challenges
+    - Possible mitigations on how to overcome these regulatory issues
+  - FG DLT D5.1
+    - This report is the final document of the work of the ITU-T Focus Group on App of DLT
+    - It provides an overview of future predictions for DLT on the subjects governance and legal regulation,computation networks,identity and privacy,securty and resilience, and risk and audit
+    - Each section has a current situation, their outlook and a standarization roadmap
+- European Committee for Electrotechnical Standardization (CENELEC)
+  - Report for Recommendations for Sucessful Adoption in Europe for Emerging Technical Standards on DLT
+  - A set of important domains of DLT that might still be uncertain (digital identity and signature management)
+- Most of the information is directed to financial institutions
